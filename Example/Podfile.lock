@@ -1,0 +1,23 @@
+PODS:
+  - CTMediator (46)
+  - ModuleA (0.1.0):
+    - CTMediator
+
+DEPENDENCIES:
+  - ModuleA (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  ModuleA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  ModuleA: 1b670d9e85c7625c4ec19ad178ca318e74fa5f26
+
+PODFILE CHECKSUM: ef7e5040792d66070151a6dd1cafd4896e65f562
+
+COCOAPODS: 1.11.2

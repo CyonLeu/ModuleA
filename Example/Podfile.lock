@@ -1,12 +1,16 @@
 PODS:
   - CTMediator (46)
-  - ModuleA (0.1.0):
+  - MediatorTarget (0.1.0):
     - CTMediator
+  - ModuleA (0.1.0):
+    - MediatorTarget
 
 DEPENDENCIES:
   - ModuleA (from `../`)
 
 SPEC REPOS:
+  "gogs@git.qupeiyin.net:FeiZhu_IOS_Pub_Repo/FZSpecs.git":
+    - MediatorTarget
   trunk:
     - CTMediator
 
@@ -16,8 +20,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
-  ModuleA: 1b670d9e85c7625c4ec19ad178ca318e74fa5f26
+  MediatorTarget: f0558b28aff251dc2e3bbebd0c24017793f682cc
+  ModuleA: a3a48e670501531f3e0682c77167f6ec4e7fdea7
 
-PODFILE CHECKSUM: ef7e5040792d66070151a6dd1cafd4896e65f562
+PODFILE CHECKSUM: e9162c905b25febebf0a6e8d81086a3203099086
 
 COCOAPODS: 1.11.2
